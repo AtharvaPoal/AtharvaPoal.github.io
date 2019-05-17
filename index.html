@@ -13,7 +13,7 @@
       <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
       APOS
     </a>
-  <a class="navbar-brand" href="#">Home</a>
+  <a class="navbar-brand" href="home.html">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,25 +21,23 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Our Goal</a>
+        <a class="nav-link" href="goal.html">Our Goal</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Carpentry</a>
-          <a class="dropdown-item" href="#">Plumbing</a>
+          <a class="dropdown-item" href="carpentry.html">Carpentry</a>
+          <a class="dropdown-item" href="plumbing.html">Plumbing</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Repairing</a>
+          <a class="dropdown-item" href="repairing.html">Repairing</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Certification</a>
-      </li>
+    
     </ul>
   </div>
   <!-- Button trigger modal -->
@@ -52,13 +50,17 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        Name:<tr/><input type="text" name="name" placeholder="Name" />
+		<br/>
+        Email:<input type="text" placeholder="Email-id"/>
+        <br/>
+			
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
